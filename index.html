@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Klunsa</title>
+</head>
+
+<body>
+    <article>
+        <section>
+            <h2>Sten / Sax / Påse vinn så många omgångar i rad som möjligt och hamna kanske på listan.</h2>
+            <form>
+                <input type="text" id="name-inp" placeholder="Ditt namn">
+                <button id="name-btn">Säg det</button>
+            </form>
+            <p>
+                <-- name plz</p>
+                    <h2 id="name-h2">Välj för att börja spela!</h2>
+        </section>
+        <section id="btn-container">
+            <button id="rock-btn">Sten</button>
+            <button id="scissor-btn">Sax</button>
+            <button id="paper-btn">Påse</button>
+        </section>
+        <section id="result-board">
+            <div class="result-cards" id="player-card">
+                <h2>Du valde:</h2>
+                <h2 class="kluns" id="player-kluns-h2">Kluns</h2>
+                <h2 class="points" id="player-points-h2">0 p</h2>
+            </div>
+            <div class="result-cards" id="winner-card">
+                <h2 id="winner-h2">Vem vann</h2>
+                <button id="reset-btn">Skicka resultat / spela igen</button>
+            </div>
+            <div class="result-cards" id="computer-card">
+                <h2>Datorn valde:</h2>
+                <h2 class="kluns" id="computer-kluns-h2">Kluns</h2>
+                <h2 class="points" id="computer-points-h2">0 p</h2>
+            </div>
+            </div>
+        </section>
+        <div id="highscore-board">
+            <h4>Listan</h4>
+            <ol id="highscore-ol">
+            </ol>
+        </div>
+    </article>
+</body>
+
+</html>

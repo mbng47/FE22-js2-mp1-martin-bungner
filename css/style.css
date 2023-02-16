@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+article {
+    margin: 2em;
+    padding: 1em;
+    min-height: 35em;
+    min-width: 80vw;
+}
+
+form{
+    display: inline-block;
+}
+
+#btn-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#btn-container button {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#result-board {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.result-cards {
+    padding: 1em;
+    flex-basis: 20%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.kluns, .points {
+    font-size: 3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    visibility: hidden;
+}
+
+#winner-card {
+    justify-content: center;
+    visibility: hidden;
+}
+
+#winner-card>h2 {
+    font-size: 2em;
+}
+
+p {
+    display: inline;
+    margin-left: 1em;
+    color: fuchsia;
+    visibility: hidden;
+}
+
+#highscore-board{
+    position: absolute;
+    top: 3em;
+    right: 8em;
+}
